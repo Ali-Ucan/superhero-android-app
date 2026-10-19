@@ -1,0 +1,18 @@
+# 🦸‍♂️ Superhero Android App (Kotlin + AI Navigation)
+
+An Android application built with Kotlin and MVVM architecture, designed to list, search, and detail superhero profiles. Developed as part of an engineering internship at BİM Birleşik Mağazalar A.Ş.
+
+## 🚀 Features
+- **MVVM Architecture:** Clean separation of concerns using ViewModel, Repository, and UI screens.
+- **AI-Powered Navigation:** Integrated Google Gemini API to analyze natural language queries (e.g., *"Which character turns green when angry?"*) and route users directly to the corresponding profile (e.g., Hulk).
+- **Cloud Media Management:** Media assets and images are stored dynamically using AWS S3 Buckets.
+- **Search & Favorites:** Dynamic search bar and persistent favorite system for characters.
+- **Secure Configuration:** Sensitive API keys are managed safely using environment variables and gitignore standards.
+
+## 🛠 Tech Stack
+- **Language:** Kotlin
+- **UI:** Jetpack Compose / Android XML
+- **Architecture:** MVVM (Model-View-ViewModel)
+- **AI Integration:** Google Gemini API
+- **Cloud Storage:** Amazon Web Services (AWS S3)
+- **Networking:** Retrofit & REST APIs
